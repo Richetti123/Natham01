@@ -1,7 +1,7 @@
 {
     "___creditos": {
-        "___Contribuidor": "https://github.com/jeffersonalionco",
-        "___Criador": "https://github.com/BrunoSobrino"
+        "___Contribuidor": "https://github.com/Richetti123",
+        "___Criador": "https://github.com/Richetti123"
     },
     "plugins": {
         "_antiarab": {
@@ -468,7 +468,7 @@
         "convertidor_tts": {
             "texto1": [
                 "[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝚃𝙴𝚇𝚃𝙾 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝚁 𝙰 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:",
-                "es Hola Mundo"
+                "es Hola MichiBot"
             ]
         },
         "convertidor_tts2": {
@@ -554,7 +554,7 @@
         "descargas_play": {
             "texto1": [
                 "_*< DESCARGAS - PLAY />*_\n\n*[ ℹ️ ] Hace falta el título o enlace del video de YouTube.*\n\n*[ 💡 ] Ejemplo:*",
-                "Good Feeling - Flo Rida_"
+                "Llori Pari - Alvaro Diaz_"
             ],
             "texto2": [
                 "_*< DESCARGAS - PLAY />*_\n\n▢ *Título:*",
@@ -2472,7 +2472,7 @@
                 "Pregunta? |Opcion1|Opcion2...*"
             ],
             "texto2": [
-                "*ᴇᴄᴜᴇsᴛᴀ ʀᴇᴀʟɪᴢᴀᴅᴀ ᴘᴏʀ:*",
+                "*ᴇɴᴄᴜᴇsᴛᴀ ʀᴇᴀʟɪᴢᴀᴅᴀ ᴘᴏʀ:*",
                 "*ᴘʀᴇɢᴜɴᴛᴀ:*"
             ]
         },
@@ -2869,14 +2869,14 @@
         },
         "menu_menu": {
             "texto1": [
-                "𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏",
+                "MichiBot",
                 "▢ *Hola,*",
                 "_*< TUS ESTADÍSTICAS />*_",
                 "▢ *Nivel:* ",
                 "▢ *Experiencia:* ",
                 "▢ *Rango:* ",
                 "▢ *Diamantes:* ",
-                "▢ *MysticCoins:* ",
+                "▢ *Coins:* ",
                 "▢ *Tokens:* ",
                 "▢ *Premium:* ",
                 " _*< LISTA DE MENUS />*_",
@@ -3354,7 +3354,7 @@
                 "║┈┈┈┈┈┈┈┈┈┈┈┈┈",
                 "Diamantes* 💎",
                 "Tokens* 🪙",
-                "MysticCoins* 👾",
+                "Coins* 👾",
                 "Exp* ⚡",
                 "╚═════════════════⬣"
             ]
@@ -3363,7 +3363,7 @@
             "texto1": "『🚓︎』𝙇𝘼 𝙋𝙊𝙇𝙄𝘾𝙄𝘼 𝙀𝙎𝙏𝘼 𝙑𝙄𝙂𝙄𝙇𝘼𝙉𝘿𝙊 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙈𝙊𝙈𝙀𝙉𝙏𝙊, 𝙑𝙐𝙀𝙇𝙑𝙀 𝙀𝙉 :",
             "texto2": [
                 "💎 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄",
-                "👾 𝐌𝐲𝐬𝐭𝐢𝐜𝐂𝐨𝐢𝐧𝐬"
+                "👾 𝐂𝐨𝐢𝐧𝐬"
             ],
             "texto3": [
                 "《💰》Le has robado a",
@@ -3801,7 +3801,7 @@
             "texto1": "*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*",
             "texto2": "*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*",
             "texto3": "*[ ℹ️ ] Este comando solo puede ser utilizado por moderadores y el propietario del bot.*",
-            "texto4": "*[ ℹ️ ] Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*",
+            "texto4": "*[ ℹ️ ] Este comando solo puede ser utilizado por usuarios premium y el propietario del bot.*",
             "texto5": "*[ ℹ️ ] Este comando solo puede ser utilizado en grupos.*",
             "texto6": "*[ ℹ️ ] Este comando solo puede ser utilizado en el chat privado del bot.*",
             "texto7": "*[ ℹ️ ] Este comando solo puede ser usado por administradores del grupo.*",
@@ -3811,7 +3811,7 @@
             "texto11": [
                 "*[ ⚠ ] Advertencia*",
                 "*[ ⚠ ] Advertencia*",
-                "https://github.com/BrunoSobrino/TheMystic-Bot-MD"
+                "https://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G"
             ]
         },
         "participantsUpdate": {
