@@ -13,7 +13,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: tradutor.texto1}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: tradutor.texto2}, {quoted: m});
-  const sessionPath = './MysticSession/';
+  const sessionPath = './MichiBot/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: tradutor.texto3}, {quoted: m});
@@ -39,6 +39,6 @@ const handler = async (m, { conn, usedPrefix }) => {
 };
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
-handler.command = /^(del_reg_in_session_owner|dsowner|clearallsession)$/i;
+handler.command = /^(del_reg_in_session_owner|borrarchats|clearallsession)$/i;
 handler.rowner = true
 export default handler;
