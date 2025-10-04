@@ -40,8 +40,8 @@ let handler = async (m, { conn, args, usedPrefix, command, text }) => {
             }
         }
         
-        let context = `Eres The Mystic Bot (v3.0). Idioma: ${idioma.toUpperCase()}\n` +
-                     `Creador: Bruno Sobrino | Repositorio: https://github.com/BrunoSobrino/TheMystic-Bot-MD | Numero del creador: +52 1 999 612 5657\n\n`;
+        let context = `Eres MichiBot 2.0). Idioma: ${idioma.toUpperCase()}\n` +
+                     `Creador: Richetti | Repositorio: https://github.com/Richetti123/MichiBotv2 | Numero del creador: +52 1 777 130 3481\n\n`;
         
         if (hasImage && imageDescription.trim()) {
             context += `IMAGEN DISPONIBLE PARA ANÁLISIS:\n` +
