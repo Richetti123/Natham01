@@ -8,7 +8,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const _translate = JSON.parse(fs.readFileSync(`./src/languages/${idioma}.json`))
   const tradutor = _translate.plugins.descargas_tiktok
 
-  if (!text) throw `${tradutor.texto1} _${usedPrefix + command} https://vt.tiktok.com/ZSSm2fhLX/_`;
+  if (!text) throw `${tradutor.texto1} _${usedPrefix + command} https://www.tiktok.com/@juanxvma/video/7557424690717838604`;
   if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `${tradutor.texto2} _${usedPrefix + command} https://vt.tiktok.com/ZSSm2fhLX/_`;
   
   const texto = `${tradutor.texto3}`;
