@@ -39,7 +39,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       }
     } else if (args[0]) {
       if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author, ["✨"], metadata);
-      else return m.reply(`${tradutor.texto2} ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*`);
+      else return m.reply(`${tradutor.texto2} ${usedPrefix}s https://i.ibb.co/xqFc0dvP/Menu2.jpg*`);
     }
   } catch (e) {
     console.error(e);
