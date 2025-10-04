@@ -71,14 +71,14 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                 year: new Date().getFullYear(),
                 comment: {
                     language: 'spa',
-                    text: `🟢 ᴅᴇsᴄᴀʀɢᴀ ᴘᴏʀ @ʙʀᴜɴᴏsᴏʙʀɪɴᴏ 🟢\n\nVideo De YouTube: ${video.url}`
+                    text: `🟢 DESCARGA POR MICHIBOT 🟢\n\nVideo De YouTube: ${video.url}`
                 }
             };
 
             if (formattedLyrics) {
                 tags.unsynchronisedLyrics = {
                     language: 'spa',
-                    text: `🟢 ᴅᴇsᴄᴀʀɢᴀ ᴘᴏʀ @ʙʀᴜɴᴏsᴏʙʀɪɴᴏ 🟢\n\nTitulo: ${video.title}\n\n${formattedLyrics}`
+                    text: `🟢 DESCARGA POR MICHIBOT 🟢\n\nTitulo: ${video.title}\n\n${formattedLyrics}`
                 };
             }
 
