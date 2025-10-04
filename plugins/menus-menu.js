@@ -44,16 +44,10 @@ const handler = async (m, { conn, usedPrefix, __dirname, isPrems }) => {
                 `${usedPrefix}menuaudios`,
                 `${usedPrefix}menuanimes`,
                 `${usedPrefix}labiblia`,
-                `${usedPrefix}lang`,
                 `${usedPrefix}infobot`,
-                `${usedPrefix}script`,
                 `${usedPrefix}estado`,
-                `${usedPrefix}join <wagp_url>`,
                 `${usedPrefix}fixmsgespera`,
                 `bot (sin prefijo)`
-            ],
-            'jadibot': [
-                `${usedPrefix}serbot --code`
             ],
             'xp': [
                 `${usedPrefix}cofre`,
@@ -117,8 +111,6 @@ const handler = async (m, { conn, usedPrefix, __dirname, isPrems }) => {
                 `${usedPrefix}tiktokimg <url>`,
                 `${usedPrefix}pptiktok <usr>`,
                 `${usedPrefix}mediafire <url>`,
-                `${usedPrefix}gitclone <url>`,
-                `${usedPrefix}gdrive <url>`,
                 `${usedPrefix}twitter <url>`,
                 `${usedPrefix}ringtone <txt>`,
                 `${usedPrefix}soundcloud <txt>`,
