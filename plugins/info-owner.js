@@ -8,7 +8,7 @@ const handler = async (m, {conn, usedPrefix}) => {
  const document = doc[Math.floor(Math.random() * doc.length)];
  const text = `${tradutor.texto1[0]}\n\n${tradutor.texto1[1]}\n\n${tradutor.texto1[2]}\n\n${tradutor.texto1[3]}\n\n${tradutor.texto1[4]}\n\n${tradutor.texto1[5]}\n\n${tradutor.texto1[6]}\n\n${tradutor.texto1[7]}\n\n${tradutor.texto1[8]}\n\n${tradutor.texto1[9]}\n\n${tradutor.texto1[10]}\n\n${tradutor.texto1[11]}\n\n${tradutor.texto1[12]}\n\n${tradutor.texto1[13]}`.trim();
  const buttonMessage = {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2[0]}`,
     'fileLength': 99999999999999,
@@ -17,13 +17,13 @@ const handler = async (m, {conn, usedPrefix}) => {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': tradutor.texto2[1],
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'}},
+        'sourceUrl': 'https://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G'}},
     'caption': text,
     'footer': wm,
     'headerType': 6
