@@ -11,7 +11,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.sender, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `${tradutor.texto1[0]}\n*${usedPrefix}unreg* ${tradutor.texto1[1]}`;
-  if (!Reg.test(text)) throw `${tradutor.texto2[0]} : ${usedPrefix + command} ${tradutor.texto2[1]} ${usedPrefix + command} Shadow.18*`;
+  if (!Reg.test(text)) throw `${tradutor.texto2[0]} : ${usedPrefix + command} ${tradutor.texto2[1]} ${usedPrefix + command} Richetti.20*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw tradutor.texto3;
   if (!age) throw tradutor.texto5;
