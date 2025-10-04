@@ -662,7 +662,7 @@ fs.watch(dirToWatchccc, (eventType, filename) => {
 
 function purgeSession() {
   let prekey = [];
-  let directorio = readdirSync("./MysticSession");
+  let directorio = readdirSync("./MichiBot");
   let filesFolderPreKeys = directorio.filter(file => file.startsWith('pre-key-'));
   prekey = [...prekey, ...filesFolderPreKeys];
   filesFolderPreKeys.forEach(files => unlinkSync(`./MysticSession/${files}`));
@@ -685,7 +685,7 @@ function purgeSessionSB() {
 }
 
 function purgeOldFiles() {
-  const directories = ['./MysticSession/', './jadibts/'];
+  const directories = ['./MichiBot/', './jadibts/'];
   const oneHourAgo = Date.now() - (60 * 60 * 1000);
   directories.forEach(dir => {
     readdirSync(dir, (err, files) => {
@@ -753,7 +753,7 @@ async function connectionUpdate(update) {
     return true;
   }
   if (reason == 405) {
-    await fs.unlinkSync("./MysticSession/" + "creds.json");
+    await fs.unlinkSync("./MichiBot/" + "creds.json");
     console.log(chalk.bold.redBright(`[ ⚠️ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`));
     process.send('reset');
   }
