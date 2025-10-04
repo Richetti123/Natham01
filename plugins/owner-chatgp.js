@@ -25,7 +25,7 @@ const handler = async (m, {conn, text, groupMetadata}) => {
   const who = await m.mentionedJid && await await m.mentionedJid[0] ? await await m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
   const name = await conn.getName(m.sender);
   const groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map((v) => v[0]);
-  const fakegif = {key: {participant: `0@s.whatsapp.net`, ...('6289643739077-1613049930@g.us' ? {remoteJid: '6289643739077-1613049930@g.us'} : {})}, message: {'videoMessage': {'title': '🐱⸽⃕NʏᴀɴCᴀᴛBᴏᴛ - MD🍁⃨፝⃕✰', 'h': `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': '🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮', 'jpegThumbnail': false}}};
+  const fakegif = {key: {participant: `0@s.whatsapp.net`, ...('6289643739077-1613049930@g.us' ? {remoteJid: '6289643739077-1613049930@g.us'} : {})}, message: {'videoMessage': {'title': 'MichiBot', 'h': `Hmm`, 'seconds': '99999', 'gifPlayback': 'true', 'caption': 'Richetti123', 'jpegThumbnail': false}}};
   const teks = `${tradutor.texto4[0]} ${groupMetadata.subject}\n${tradutor.texto4[1]}${name}\n*${tradutor.texto4[2]} wa.me/${who.split`@`[0]}\n*${tradutor.texto4[3]} ${text}`;
   for (const id of groups) {
     await conn.sendMessage(id, {text: teks}, {quoted: fakegif});
