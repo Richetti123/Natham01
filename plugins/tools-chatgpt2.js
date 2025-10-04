@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, command }) => {
   
   try {  
 
-    if (command === 'delmemoryia' || command === 'borrarmemoriaai') {
+    if (command === 'delmemoryia' || command === 'borrarmemoria') {
       if (!global.db.data.users) global.db.data.users = {};
       if (!global.db.data.users[m.sender]) global.db.data.users[m.sender] = {};
       global.db.data.users[m.sender].chatHistory = [];
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, command }) => {
 
 handler.help = ['exploit', 'delmemoryia'];
 handler.tags = ['ai'];
-handler.command = /^(xexploit|ia2|exploit|delmemoryia|borrarmemoriaai)$/i;
+handler.command = /^(xexploit|ia2|exploit|delmemoryia|borrarmemoria)$/i;
 export default handler;
 
 function getUserHistory(sender) {
