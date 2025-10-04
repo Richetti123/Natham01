@@ -665,7 +665,7 @@ function purgeSession() {
   let directorio = readdirSync("./MichiBot");
   let filesFolderPreKeys = directorio.filter(file => file.startsWith('pre-key-'));
   prekey = [...prekey, ...filesFolderPreKeys];
-  filesFolderPreKeys.forEach(files => unlinkSync(`./MysticSession/${files}`));
+  filesFolderPreKeys.forEach(files => unlinkSync(`./MichiBot/${files}`));
 }
 
 function purgeSessionSB() {
