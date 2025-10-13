@@ -248,6 +248,7 @@ const handler = async (m, { conn, usedPrefix, __dirname, isPrems }) => {
             before: (tradutor.menu_header || '')
                 .replace('@username', username)
                 .replace('@author', global.author || 'Desconocido')
+                .replace('@packname', global.packname || 'Bot')
                 .replace('@owner', global.owner?.[0]?.[0] || '000000000000')
                 .replace('@week', week)
                 .replace('@date', date)
