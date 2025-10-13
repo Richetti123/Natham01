@@ -1,7 +1,7 @@
 {
     "plugins": {
         "menu": {
-            "menu_header": "╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮\n║ ◉— *MichiBot* —◉\n║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║\n║➤ *Hola,* @username\n║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║\n║➤ *Owner:* @author\n║➤ *Numero:* wa.me/@owner\n║➤ *PayPal:* paypal.me/richetti123\n║➤ *Fecha:* @week, @date\n║➤ *Tiempo activo:* @uptime\n║➤ *Usuarios:* @rtotal\n║➤ *Registrados:* @rtotalreg\n╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯",
+            "menu_header": "╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮\n║ ◉— *MichiBot* —◉\n║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║\n║➤ *Hola,* @username\n║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║\n║➤ *Owner:* @author\n║➤ *Fecha:* @week, @date\n║➤ *Tiempo activo:* @uptime\n║➤ *Usuarios:* @rtotal\n║➤ *Registrados:* @rtotalreg\n╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯",
             
             "user_info": "┏━━━━━━━━━━━━━━━━┓\n┃ *< INFO DEL USUARIO />*\n┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃\n┣ ✯ *Nivel:* @level\n┣ ✯ *Experiencia:* @exp\n┣ ✯ *Rango:* @role\n┣ ✯ *Diamantes:* @limit\n┣ ✯ *Coins:* @money\n┣ ✯ *Tokens:* @joincount\n┣ ✯ *Premium:* @premium\n┗━━━━━━━━━━━━━━━━┛\n",
             
