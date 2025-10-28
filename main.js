@@ -46,7 +46,7 @@ global.videoList = [];
 global.videoListXXX = [];
 const __dirname = global.__dirname(import.meta.url);
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
-global.prefix = new RegExp('^[#!/.]')
+global.prefix = new RegExp('^[#!/.Aa]')
 global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`));
 
 global.loadDatabase = async function loadDatabase() {
@@ -488,7 +488,9 @@ async function interceptMessages(messages, lidResolver) {
 }
 
 const { state, saveCreds } = await useMultiFileAuthState(global.authFile);
-const { version } = await fetchLatestBaileysVersion();
+const version22 = await fetchLatestBaileysVersion();
+console.log(version22)
+const version = [2, 3000, 1025190524]; 
 let phoneNumber = global.botnumber || process.argv.find(arg => arg.startsWith('--phone='))?.split('=')[1];
 const methodCodeQR = process.argv.includes('--method=qr');
 const methodCode = !!phoneNumber || process.argv.includes('--method=code');
@@ -538,7 +540,7 @@ const connectionOptions = {
   logger: pino({ level: 'silent' }),
   printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
   mobile: MethodMobile,
-  browser: opcion === '1' ? ['Natham01', 'Safari', '2.0.0'] : methodCodeQR ? ['Natham01', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+  browser: opcion === '1' ? ['Bot', 'Safari', '2.0.0'] : methodCodeQR ? ['Bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
   auth: {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -559,9 +561,9 @@ const connectionOptions = {
   userDevicesCache: userDevicesCache || new Map(),
   defaultQueryTimeoutMs: undefined,
   cachedGroupMetadata: (jid) => global.conn.chats[jid] ?? {},
-  version: [2, 3000, 1023223821],
   keepAliveIntervalMs: 55000,
   maxIdleTimeMs: 60000,
+  version,
 };
 
 global.conn = makeWASocket(connectionOptions);
@@ -753,9 +755,9 @@ async function connectionUpdate(update) {
     return true;
   }
   if (reason == 405) {
-    await fs.unlinkSync("./MichiBot/" + "creds.json");
+    //await fs.unlinkSync("./MichiBot/" + "creds.json");
     console.log(chalk.bold.redBright(`[ ⚠️ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`));
-    process.send('reset');
+    //process.send('reset');
   }
   if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {

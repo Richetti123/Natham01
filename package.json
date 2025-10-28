@@ -1,7 +1,7 @@
 {
   "name": "MichiBot",
   "version": "1.0.0",
-  "description": "Un bot automatizado para WhatsApp que permite realizar múltiples funciones en la plataforma.",
+  "description": "Un bot para WhatsApp que permite realizar múltiples funciones y personalizaciones.",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -40,7 +40,7 @@
     "aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper",
     "awesome-phonenumber": "^2.68.0",
     "axios": "*",
-    "baileys": "npm:theshadowbails",
+    "baileys": "github:BrunoSobrino/Baileys-Itsukichann",
     "body-parser": "^1.20.2",
     "browser-id3-writer": "*",
     "cfonts": "^2.10.0",
@@ -103,7 +103,6 @@
     "wa-sticker-formatter": "^4.3.2"
   },
   "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint": "^9.37.0"
   }
 }
